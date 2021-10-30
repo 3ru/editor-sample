@@ -40,7 +40,7 @@ const Codemirror: React.FC<{ initialValue: string }> = ({ initialValue }) => {
 
   // Component for display text
   const OutputText = () => (
-    <div className="border rounded p-5">
+    <div className="border rounded p-5 text-gray-50">
       <pre>
         <code>{editorValue}</code>
       </pre>
